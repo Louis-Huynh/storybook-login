@@ -1,0 +1,54 @@
+.loginCSS {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.loginCSS:focus {
+  outline: 0;
+}
+
+.loginCSS:hover {
+  background-color: #449d48;
+}
+
+.forgotCSS {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: arial, sans-serif;
+  color: #069;
+  text-decoration: none;
+  margin-top: 7px;
+  margin-bottom: 14px;
+  outline: none;
+  font-family: "Noto Sans", sans-serif;
+  cursor: pointer;
+}
+.createCSS {
+  background-color: #1e90ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  font-family: "Noto Sans", sans-serif;
+  width: 100%;
+}
+
+.createCSS:hover {
+  background-color: #1873cc;
+}
