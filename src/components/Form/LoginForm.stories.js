@@ -10,6 +10,4 @@ export default {
 const Template = (args) => <LoginForm {...args} />;
 
 export const Login = Template.bind({});
-Login.args = {
-  value: "input email",
-};
+Login.args = {};

@@ -19,7 +19,12 @@ function App() {
         <Switch>
           <Route path="/" exact component={LoginForm} />
 
-          <Route path="/login" component={SuccessLogin} />
+          <Route
+            path="/login"
+            render={(props) => (
+              <SuccessLogin {...props} successMessage="Hello, you made it!" />
+            )}
+          />
         </Switch>
       </Router>
     </div>

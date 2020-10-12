@@ -2,12 +2,13 @@ import React from "react";
 import "./SuccessLogin.css";
 import logo from "../../assets/applauzLogo.svg";
 
-const SuccessLogin = () => {
+//redirected page after login is succesful
+const SuccessLogin = ({ successMessage }) => {
   return (
     <div>
       <img src={logo} alt="no work" className="imgLogo" />
 
-      <p className="font">Hello you made it!</p>
+      <p className="font">{successMessage}</p>
     </div>
   );
 };

@@ -15,8 +15,8 @@ export default {
 
 Button.propTypes = {
   label: PropTypes.string.isRequired,
-  handleLogin: PropTypes.func,
-  handleForgotPw: PropTypes.func,
+  typeClassName: PropTypes.string,
+  buttonType: PropTypes.string,
   handleCreateNewUser: PropTypes.func,
 };
 

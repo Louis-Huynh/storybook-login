@@ -4,6 +4,8 @@ import Input from "../Input/Input";
 import { useHistory } from "react-router-dom";
 import "./LoginForm.css";
 
+//form containing the buttons and input
+//contains login logic
 const LoginForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -11,7 +13,7 @@ const LoginForm = () => {
   const [credentialInfo, setCredentialInfo] = useState([
     { email: "curious@george.com", password: "timber" },
     { email: "short@gmail.com", password: "short" },
-    { email: "potato@mail.ca", password: "kitkat" },
+    { email: "applejacks@mail.ca", password: "kitkat" },
   ]);
 
   const handleSubmit = (event) => {
@@ -51,6 +53,7 @@ const LoginForm = () => {
   const handleForgotPw = () => {
     console.log("Forgot password");
   };
+
   return (
     <div className="formWrapper">
       <p className="errorMessage">

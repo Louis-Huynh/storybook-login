@@ -3,8 +3,6 @@ import "./Button.css";
 
 export default function Button({
   label,
-  handleForgotPw,
-  handleCreateNewUser,
   typeClassName,
   buttonType,
   handleClick,

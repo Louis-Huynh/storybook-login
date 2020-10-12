@@ -5,6 +5,8 @@ class Input extends Component {
   render() {
     const { value, typeClassName, display } = this.props;
 
+    //sends back value of input to its parent, LoginForm
+    //where it will be processed
     let onChangeData = (event) => {
       const data = event.target.value;
       this.props.onChangeData(data);
